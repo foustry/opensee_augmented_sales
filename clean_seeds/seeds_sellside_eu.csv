@@ -1,0 +1,313 @@
+Institution,key word,nature,Location,Seeds
+banks,GSIBs,appointment,Europe,banks GSIBs appointment Europe
+banks,investment bank,appointment,Europe,banks investment bank appointment Europe
+banks,broker‑dealer,appointment,Europe,banks broker‑dealer appointment Europe
+banks,prime broker,appointment,Europe,banks prime broker appointment Europe
+banks,trading desk,appointment,Europe,banks trading desk appointment Europe
+banks,front office,appointment,Europe,banks front office appointment Europe
+banks,middle office,appointment,Europe,banks middle office appointment Europe
+banks,risk desk,appointment,Europe,banks risk desk appointment Europe
+banks,treasury desk,appointment,Europe,banks treasury desk appointment Europe
+banks,FRTB,technology,Europe,banks FRTB technology Europe
+banks,FRTB SA,technology,Europe,banks FRTB SA technology Europe
+banks,FRTB IMA,technology,Europe,banks FRTB IMA technology Europe
+banks,VaR,technology,Europe,banks VaR technology Europe
+banks,Value-at-risk,technology,Europe,banks Value-at-risk technology Europe
+banks,intraday VaR,technology,Europe,banks intraday VaR technology Europe
+banks,Expected Shortfall,technology,Europe,banks Expected Shortfall technology Europe
+banks,ES,technology,Europe,banks ES technology Europe
+banks,stress testing,technology,Europe,banks stress testing technology Europe
+banks,backtesting,technology,Europe,banks backtesting technology Europe
+banks,SA‑CCR,technology,Europe,banks SA‑CCR technology Europe
+banks,SIMM,technology,Europe,banks SIMM technology Europe
+banks,ISDA SIMM,technology,Europe,banks ISDA SIMM technology Europe
+banks,IM,technology,Europe,banks IM technology Europe
+banks,VM,technology,Europe,banks VM technology Europe
+banks,margin call,technology,Europe,banks margin call technology Europe
+banks,collateral management,technology,Europe,banks collateral management technology Europe
+banks,CCP,technology,Europe,banks CCP technology Europe
+banks,netting set,technology,Europe,banks netting set technology Europe
+banks,CSA,technology,Europe,banks CSA technology Europe
+banks,XVA,technology,Europe,banks XVA technology Europe
+banks,CVA,technology,Europe,banks CVA technology Europe
+banks,PFE,technology,Europe,banks PFE technology Europe
+banks,EAD,technology,Europe,banks EAD technology Europe
+banks,RWA,technology,Europe,banks RWA technology Europe
+banks,capital optimization,technology,Europe,banks capital optimization technology Europe
+banks,regulatory capital,technology,Europe,banks regulatory capital technology Europe
+banks,BCBS 239,technology,Europe,banks BCBS 239 technology Europe
+banks,PRA,technology,Europe,banks PRA technology Europe
+banks,CRR,technology,Europe,banks CRR technology Europe
+banks,Trade analytics,technology,Europe,banks Trade analytics technology Europe
+banks,post‑trade analytics,technology,Europe,banks post‑trade analytics technology Europe
+banks,pre‑trade analytics,technology,Europe,banks pre‑trade analytics technology Europe
+banks,execution algos,technology,Europe,banks execution algos technology Europe
+banks,TCA,technology,Europe,banks TCA technology Europe
+banks,OMS,technology,Europe,banks OMS technology Europe
+banks,market impact,technology,Europe,banks market impact technology Europe
+banks,order flow,technology,Europe,banks order flow technology Europe
+banks,Sensitivities,technology,Europe,banks Sensitivities technology Europe
+banks,P&L vectors,technology,Europe,banks P&L vectors technology Europe
+banks,risk factors,technology,Europe,banks risk factors technology Europe
+banks,factor model,technology,Europe,banks factor model technology Europe
+banks,Greeks,technology,Europe,banks Greeks technology Europe
+banks,calculators,technology,Europe,banks calculators technology Europe
+banks,UDF,technology,Europe,banks UDF technology Europe
+banks,neural‑network proxy,technology,Europe,banks neural‑network proxy technology Europe
+banks,model validation,technology,Europe,banks model validation technology Europe
+banks,intraday risk,technology,Europe,banks intraday risk technology Europe
+banks,real‑time risk,technology,Europe,banks real‑time risk technology Europe
+banks,intraday datasets,technology,Europe,banks intraday datasets technology Europe
+banks,real‑time stress testing,technology,Europe,banks real‑time stress testing technology Europe
+banks,PnL analytics,technology,Europe,banks PnL analytics technology Europe
+banks,PnL analytics platform,technology,Europe,banks PnL analytics platform technology Europe
+banks,scenario analysis,technology,Europe,banks scenario analysis technology Europe
+banks,Multi‑layer risk aggregation,technology,Europe,banks Multi‑layer risk aggregation technology Europe
+banks,Liquidity,technology,Europe,banks Liquidity technology Europe
+banks,LCR,technology,Europe,banks LCR technology Europe
+banks,NSFR,technology,Europe,banks NSFR technology Europe
+banks,ILM,technology,Europe,banks ILM technology Europe
+banks,EVE,technology,Europe,banks EVE technology Europe
+banks,NII,technology,Europe,banks NII technology Europe
+banks,cashflow simulation,technology,Europe,banks cashflow simulation technology Europe
+banks,liquidity gap,technology,Europe,banks liquidity gap technology Europe
+banks,ALM,technology,Europe,banks ALM technology Europe
+banks,Data quality,technology,Europe,banks Data quality technology Europe
+banks,anomaly detection,technology,Europe,banks anomaly detection technology Europe
+banks,data certification,technology,Europe,banks data certification technology Europe
+banks,versioning,technology,Europe,banks versioning technology Europe
+banks,auditability,technology,Europe,banks auditability technology Europe
+banks,semantic layer,technology,Europe,banks semantic layer technology Europe
+banks,data model,technology,Europe,banks data model technology Europe
+banks,Intraday limit breach,technology,Europe,banks Intraday limit breach technology Europe
+banks,margin dispute,technology,Europe,banks margin dispute technology Europe
+banks,regulatory fine,technology,Europe,banks regulatory fine technology Europe
+banks,platform migration,technology,Europe,banks platform migration technology Europe
+banks,vendor replacement,technology,Europe,banks vendor replacement technology Europe
+banks,counterparty default,technology,Europe,banks counterparty default technology Europe
+banks,Equities ai,technology,Europe,banks Equities ai technology Europe
+banks,FX ai,technology,Europe,banks FX ai technology Europe
+banks,Rates ai,technology,Europe,banks Rates ai technology Europe
+banks,Credit ai,technology,Europe,banks Credit ai technology Europe
+banks,Commodities ai,technology,Europe,banks Commodities ai technology Europe
+banks,derivatives ai,technology,Europe,banks derivatives ai technology Europe
+banks,options ai,technology,Europe,banks options ai technology Europe
+banks,swaps ai,technology,Europe,banks swaps ai technology Europe
+banks,OTC derivatives ai,technology,Europe,banks OTC derivatives ai technology Europe
+banks,repos ai,technology,Europe,banks repos ai technology Europe
+banks,Chief Investment Officer,appointment,Europe,banks Chief Investment Officer appointment Europe
+banks,CIO,appointment,Europe,banks CIO appointment Europe
+banks,Chief Technology Officer,appointment,Europe,banks Chief Technology Officer appointment Europe
+banks,CTO,appointment,Europe,banks CTO appointment Europe
+banks,Chief Risk Officer,appointment,Europe,banks Chief Risk Officer appointment Europe
+banks,CRO,appointment,Europe,banks CRO appointment Europe
+banks,risk manager,appointment,Europe,banks risk manager appointment Europe
+banks,Head of Treasury,appointment,Europe,banks Head of Treasury appointment Europe
+banks,Treasury Head,appointment,Europe,banks Treasury Head appointment Europe
+banks,Head of Finance,appointment,Europe,banks Head of Finance appointment Europe
+banks,Head of Systematic Investment,appointment,Europe,banks Head of Systematic Investment appointment Europe
+banks,Head of Systematic Strategies,appointment,Europe,banks Head of Systematic Strategies appointment Europe
+banks,Head of Multi‑Asset,appointment,Europe,banks Head of Multi‑Asset appointment Europe
+banks,Head of Multi Asset Solutions,appointment,Europe,banks Head of Multi Asset Solutions appointment Europe
+banks,Head of Liquid Alternatives,appointment,Europe,banks Head of Liquid Alternatives appointment Europe
+banks,Head of Liquid Alts,appointment,Europe,banks Head of Liquid Alts appointment Europe
+banks,Head of Thematic ETF,appointment,Europe,banks Head of Thematic ETF appointment Europe
+banks,Head of Thematic ETFs,appointment,Europe,banks Head of Thematic ETFs appointment Europe
+banks,Head of Quantitative Investment,appointment,Europe,banks Head of Quantitative Investment appointment Europe
+banks,Head of Quant,appointment,Europe,banks Head of Quant appointment Europe
+banks,Global Head of Risk,appointment,Europe,banks Global Head of Risk appointment Europe
+banks,Regional Head of Treasury,appointment,Europe,banks Regional Head of Treasury appointment Europe
+banks,Portfolio Manager,appointment,Europe,banks Portfolio Manager appointment Europe
+banks,Head of Execution,appointment,Europe,banks Head of Execution appointment Europe
+banks,Head of Trading,appointment,Europe,banks Head of Trading appointment Europe
+banks,Head of Data Science,appointment,Europe,banks Head of Data Science appointment Europe
+banks,Head of AI,appointment,Europe,banks Head of AI appointment Europe
+banks,Chief Data Officer,appointment,Europe,banks Chief Data Officer appointment Europe
+banks,Head of ML,appointment,Europe,banks Head of ML appointment Europe
+banks,Head of QIS,appointment,Europe,banks Head of QIS appointment Europe
+banks,Agentic AI,technology,Europe,banks Agentic AI technology Europe
+banks,AI‑powered,technology,Europe,banks AI‑powered technology Europe
+banks,AI‑powered analytics,technology,Europe,banks AI‑powered analytics technology Europe
+banks,AI‑powered data quality,technology,Europe,banks AI‑powered data quality technology Europe
+banks,Generative AI,technology,Europe,banks Generative AI technology Europe
+banks,GenAI,technology,Europe,banks GenAI technology Europe
+banks,LLM,technology,Europe,banks LLM technology Europe
+banks,large language model,technology,Europe,banks large language model technology Europe
+banks,conversational analytics,technology,Europe,banks conversational analytics technology Europe
+banks,chatbot analytics,technology,Europe,banks chatbot analytics technology Europe
+banks,AI assistant,technology,Europe,banks AI assistant technology Europe
+banks,neural network proxy,technology,Europe,banks neural network proxy technology Europe
+banks,ML‑calibrated similarities,technology,Europe,banks ML‑calibrated similarities technology Europe
+banks,anomaly detection,technology,Europe,banks anomaly detection technology Europe
+banks,model governance,technology,Europe,banks model governance technology Europe
+banks,model validation,technology,Europe,banks model validation technology Europe
+banks,Agentic LLMs,technology,Europe,banks Agentic LLMs technology Europe
+banks,AI solutions,technology,Europe,banks AI solutions technology Europe
+banks,AI technology,technology,Europe,banks AI technology technology Europe
+banks,AI capabilities,technology,Europe,banks AI capabilities technology Europe
+banks,AI/ML,technology,Europe,banks AI/ML technology Europe
+banks,AI‑driven,technology,Europe,banks AI‑driven technology Europe
+banks,Predictive analytics,technology,Europe,banks Predictive analytics technology Europe
+banks,data science,technology,Europe,banks data science technology Europe
+banks,data analytics,technology,Europe,banks data analytics technology Europe
+banks,cognitive computing,technology,Europe,banks cognitive computing technology Europe
+banks,Digital transformation,technology,Europe,banks Digital transformation technology Europe
+banks,digital innovation,technology,Europe,banks digital innovation technology Europe
+banks,digitalization,technology,Europe,banks digitalization technology Europe
+banks,data transformation,technology,Europe,banks data transformation technology Europe
+banks,GSIBs,appointment,Europe,banks GSIBs appointment Europe
+banks,investment bank,appointment,Europe,banks investment bank appointment Europe
+banks,broker‑dealer,appointment,Europe,banks broker‑dealer appointment Europe
+banks,prime broker,appointment,Europe,banks prime broker appointment Europe
+banks,trading desk,appointment,Europe,banks trading desk appointment Europe
+banks,front office,appointment,Europe,banks front office appointment Europe
+banks,middle office,appointment,Europe,banks middle office appointment Europe
+banks,risk desk,appointment,Europe,banks risk desk appointment Europe
+banks,treasury desk,appointment,Europe,banks treasury desk appointment Europe
+banks,FRTB,technology,Europe,banks FRTB technology Europe
+banks,FRTB SA,technology,Europe,banks FRTB SA technology Europe
+banks,FRTB IMA,technology,Europe,banks FRTB IMA technology Europe
+banks,VaR,technology,Europe,banks VaR technology Europe
+banks,Value-at-risk,technology,Europe,banks Value-at-risk technology Europe
+banks,intraday VaR,technology,Europe,banks intraday VaR technology Europe
+banks,Expected Shortfall,technology,Europe,banks Expected Shortfall technology Europe
+banks,ES,technology,Europe,banks ES technology Europe
+banks,stress testing,technology,Europe,banks stress testing technology Europe
+banks,backtesting,technology,Europe,banks backtesting technology Europe
+banks,SA‑CCR,technology,Europe,banks SA‑CCR technology Europe
+banks,SIMM,technology,Europe,banks SIMM technology Europe
+banks,ISDA SIMM,technology,Europe,banks ISDA SIMM technology Europe
+banks,IM,technology,Europe,banks IM technology Europe
+banks,VM,technology,Europe,banks VM technology Europe
+banks,margin call,technology,Europe,banks margin call technology Europe
+banks,collateral management,technology,Europe,banks collateral management technology Europe
+banks,CCP,technology,Europe,banks CCP technology Europe
+banks,netting set,technology,Europe,banks netting set technology Europe
+banks,CSA,technology,Europe,banks CSA technology Europe
+banks,XVA,technology,Europe,banks XVA technology Europe
+banks,CVA,technology,Europe,banks CVA technology Europe
+banks,PFE,technology,Europe,banks PFE technology Europe
+banks,EAD,technology,Europe,banks EAD technology Europe
+banks,RWA,technology,Europe,banks RWA technology Europe
+banks,capital optimization,technology,Europe,banks capital optimization technology Europe
+banks,regulatory capital,technology,Europe,banks regulatory capital technology Europe
+banks,BCBS 239,technology,Europe,banks BCBS 239 technology Europe
+banks,PRA,technology,Europe,banks PRA technology Europe
+banks,CRR,technology,Europe,banks CRR technology Europe
+banks,Trade analytics,technology,Europe,banks Trade analytics technology Europe
+banks,post‑trade analytics,technology,Europe,banks post‑trade analytics technology Europe
+banks,pre‑trade analytics,technology,Europe,banks pre‑trade analytics technology Europe
+banks,execution algos,technology,Europe,banks execution algos technology Europe
+banks,TCA,technology,Europe,banks TCA technology Europe
+banks,OMS,technology,Europe,banks OMS technology Europe
+banks,market impact,technology,Europe,banks market impact technology Europe
+banks,order flow,technology,Europe,banks order flow technology Europe
+banks,Sensitivities,technology,Europe,banks Sensitivities technology Europe
+banks,P&L vectors,technology,Europe,banks P&L vectors technology Europe
+banks,risk factors,technology,Europe,banks risk factors technology Europe
+banks,factor model,technology,Europe,banks factor model technology Europe
+banks,Greeks,technology,Europe,banks Greeks technology Europe
+banks,calculators,technology,Europe,banks calculators technology Europe
+banks,UDF,technology,Europe,banks UDF technology Europe
+banks,neural‑network proxy,technology,Europe,banks neural‑network proxy technology Europe
+banks,model validation,technology,Europe,banks model validation technology Europe
+banks,intraday risk,technology,Europe,banks intraday risk technology Europe
+banks,real‑time risk,technology,Europe,banks real‑time risk technology Europe
+banks,intraday datasets,technology,Europe,banks intraday datasets technology Europe
+banks,real‑time stress testing,technology,Europe,banks real‑time stress testing technology Europe
+banks,PnL analytics,technology,Europe,banks PnL analytics technology Europe
+banks,PnL analytics platform,technology,Europe,banks PnL analytics platform technology Europe
+banks,scenario analysis,technology,Europe,banks scenario analysis technology Europe
+banks,Multi‑layer risk aggregation,technology,Europe,banks Multi‑layer risk aggregation technology Europe
+banks,Liquidity,technology,Europe,banks Liquidity technology Europe
+banks,LCR,technology,Europe,banks LCR technology Europe
+banks,NSFR,technology,Europe,banks NSFR technology Europe
+banks,ILM,technology,Europe,banks ILM technology Europe
+banks,EVE,technology,Europe,banks EVE technology Europe
+banks,NII,technology,Europe,banks NII technology Europe
+banks,cashflow simulation,technology,Europe,banks cashflow simulation technology Europe
+banks,liquidity gap,technology,Europe,banks liquidity gap technology Europe
+banks,ALM,technology,Europe,banks ALM technology Europe
+banks,Data quality,technology,Europe,banks Data quality technology Europe
+banks,anomaly detection,technology,Europe,banks anomaly detection technology Europe
+banks,data certification,technology,Europe,banks data certification technology Europe
+banks,versioning,technology,Europe,banks versioning technology Europe
+banks,auditability,technology,Europe,banks auditability technology Europe
+banks,semantic layer,technology,Europe,banks semantic layer technology Europe
+banks,data model,technology,Europe,banks data model technology Europe
+banks,Intraday limit breach,technology,Europe,banks Intraday limit breach technology Europe
+banks,margin dispute,technology,Europe,banks margin dispute technology Europe
+banks,regulatory fine,technology,Europe,banks regulatory fine technology Europe
+banks,platform migration,technology,Europe,banks platform migration technology Europe
+banks,vendor replacement,technology,Europe,banks vendor replacement technology Europe
+banks,counterparty default,technology,Europe,banks counterparty default technology Europe
+banks,Equities ai,technology,Europe,banks Equities ai technology Europe
+banks,FX ai,technology,Europe,banks FX ai technology Europe
+banks,Rates ai,technology,Europe,banks Rates ai technology Europe
+banks,Credit ai,technology,Europe,banks Credit ai technology Europe
+banks,Commodities ai,technology,Europe,banks Commodities ai technology Europe
+banks,derivatives ai,technology,Europe,banks derivatives ai technology Europe
+banks,options ai,technology,Europe,banks options ai technology Europe
+banks,swaps ai,technology,Europe,banks swaps ai technology Europe
+banks,OTC derivatives ai,technology,Europe,banks OTC derivatives ai technology Europe
+banks,repos ai,technology,Europe,banks repos ai technology Europe
+banks,Chief Investment Officer,appointment,Europe,banks Chief Investment Officer appointment Europe
+banks,CIO,appointment,Europe,banks CIO appointment Europe
+banks,Chief Technology Officer,appointment,Europe,banks Chief Technology Officer appointment Europe
+banks,CTO,appointment,Europe,banks CTO appointment Europe
+banks,Chief Risk Officer,appointment,Europe,banks Chief Risk Officer appointment Europe
+banks,CRO,appointment,Europe,banks CRO appointment Europe
+banks,risk manager,appointment,Europe,banks risk manager appointment Europe
+banks,Head of Treasury,appointment,Europe,banks Head of Treasury appointment Europe
+banks,Treasury Head,appointment,Europe,banks Treasury Head appointment Europe
+banks,Head of Finance,appointment,Europe,banks Head of Finance appointment Europe
+banks,Head of Systematic Investment,appointment,Europe,banks Head of Systematic Investment appointment Europe
+banks,Head of Systematic Strategies,appointment,Europe,banks Head of Systematic Strategies appointment Europe
+banks,Head of Multi‑Asset,appointment,Europe,banks Head of Multi‑Asset appointment Europe
+banks,Head of Multi Asset Solutions,appointment,Europe,banks Head of Multi Asset Solutions appointment Europe
+banks,Head of Liquid Alternatives,appointment,Europe,banks Head of Liquid Alternatives appointment Europe
+banks,Head of Liquid Alts,appointment,Europe,banks Head of Liquid Alts appointment Europe
+banks,Head of Thematic ETF,appointment,Europe,banks Head of Thematic ETF appointment Europe
+banks,Head of Thematic ETFs,appointment,Europe,banks Head of Thematic ETFs appointment Europe
+banks,Head of Quantitative Investment,appointment,Europe,banks Head of Quantitative Investment appointment Europe
+banks,Head of Quant,appointment,Europe,banks Head of Quant appointment Europe
+banks,Global Head of Risk,appointment,Europe,banks Global Head of Risk appointment Europe
+banks,Regional Head of Treasury,appointment,Europe,banks Regional Head of Treasury appointment Europe
+banks,Portfolio Manager,appointment,Europe,banks Portfolio Manager appointment Europe
+banks,Head of Execution,appointment,Europe,banks Head of Execution appointment Europe
+banks,Head of Trading,appointment,Europe,banks Head of Trading appointment Europe
+banks,Head of Data Science,appointment,Europe,banks Head of Data Science appointment Europe
+banks,Head of AI,appointment,Europe,banks Head of AI appointment Europe
+banks,Chief Data Officer,appointment,Europe,banks Chief Data Officer appointment Europe
+banks,Head of ML,appointment,Europe,banks Head of ML appointment Europe
+banks,Head of QIS,appointment,Europe,banks Head of QIS appointment Europe
+banks,Agentic AI,technology,Europe,banks Agentic AI technology Europe
+banks,AI‑powered,technology,Europe,banks AI‑powered technology Europe
+banks,AI‑powered analytics,technology,Europe,banks AI‑powered analytics technology Europe
+banks,AI‑powered data quality,technology,Europe,banks AI‑powered data quality technology Europe
+banks,Generative AI,technology,Europe,banks Generative AI technology Europe
+banks,GenAI,technology,Europe,banks GenAI technology Europe
+banks,LLM,technology,Europe,banks LLM technology Europe
+banks,large language model,technology,Europe,banks large language model technology Europe
+banks,conversational analytics,technology,Europe,banks conversational analytics technology Europe
+banks,chatbot analytics,technology,Europe,banks chatbot analytics technology Europe
+banks,AI assistant,technology,Europe,banks AI assistant technology Europe
+banks,neural network proxy,technology,Europe,banks neural network proxy technology Europe
+banks,ML‑calibrated similarities,technology,Europe,banks ML‑calibrated similarities technology Europe
+banks,anomaly detection,technology,Europe,banks anomaly detection technology Europe
+banks,model governance,technology,Europe,banks model governance technology Europe
+banks,model validation,technology,Europe,banks model validation technology Europe
+banks,Agentic LLMs,technology,Europe,banks Agentic LLMs technology Europe
+banks,AI solutions,technology,Europe,banks AI solutions technology Europe
+banks,AI technology,technology,Europe,banks AI technology technology Europe
+banks,AI capabilities,technology,Europe,banks AI capabilities technology Europe
+banks,AI/ML,technology,Europe,banks AI/ML technology Europe
+banks,AI‑driven,technology,Europe,banks AI‑driven technology Europe
+banks,Predictive analytics,technology,Europe,banks Predictive analytics technology Europe
+banks,data science,technology,Europe,banks data science technology Europe
+banks,data analytics,technology,Europe,banks data analytics technology Europe
+banks,cognitive computing,technology,Europe,banks cognitive computing technology Europe
+banks,Digital transformation,technology,Europe,banks Digital transformation technology Europe
+banks,digital innovation,technology,Europe,banks digital innovation technology Europe
+banks,digitalization,technology,Europe,banks digitalization technology Europe
+banks,data transformation,technology,Europe,banks data transformation technology Europe

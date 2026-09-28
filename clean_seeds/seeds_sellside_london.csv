@@ -1,0 +1,156 @@
+﻿Institution,key word,nature,Location,Seeds
+banks,GSIBs,appointment,London,banks GSIBs appointment London
+banks,investment bank,appointment,London,banks investment bank appointment London
+banks,broker‑dealer,appointment,London,banks broker‑dealer appointment London
+banks,prime broker,appointment,London,banks prime broker appointment London
+banks,trading desk,appointment,London,banks trading desk appointment London
+banks,front office,appointment,London,banks front office appointment London
+banks,middle office,appointment,London,banks middle office appointment London
+banks,risk desk,appointment,London,banks risk desk appointment London
+banks,treasury desk,appointment,London,banks treasury desk appointment London
+banks,FRTB,technology,London,banks FRTB technology London
+banks,FRTB SA,technology,London,banks FRTB SA technology London
+banks,FRTB IMA,technology,London,banks FRTB IMA technology London
+banks,VaR,technology,London,banks VaR technology London
+banks,Value-at-risk,technology,London,banks Value-at-risk technology London
+banks,intraday VaR,technology,London,banks intraday VaR technology London
+banks,Expected Shortfall,technology,London,banks Expected Shortfall technology London
+banks,ES,technology,London,banks ES technology London
+banks,stress testing,technology,London,banks stress testing technology London
+banks,backtesting,technology,London,banks backtesting technology London
+banks,SA‑CCR,technology,London,banks SA‑CCR technology London
+banks,SIMM,technology,London,banks SIMM technology London
+banks,ISDA SIMM,technology,London,banks ISDA SIMM technology London
+banks,IM,technology,London,banks IM technology London
+banks,VM,technology,London,banks VM technology London
+banks,margin call,technology,London,banks margin call technology London
+banks,collateral management,technology,London,banks collateral management technology London
+banks,CCP,technology,London,banks CCP technology London
+banks,netting set,technology,London,banks netting set technology London
+banks,CSA,technology,London,banks CSA technology London
+banks,XVA,technology,London,banks XVA technology London
+banks,CVA,technology,London,banks CVA technology London
+banks,PFE,technology,London,banks PFE technology London
+banks,EAD,technology,London,banks EAD technology London
+banks,RWA,technology,London,banks RWA technology London
+banks,capital optimization,technology,London,banks capital optimization technology London
+banks,regulatory capital,technology,London,banks regulatory capital technology London
+banks,BCBS 239,technology,London,banks BCBS 239 technology London
+banks,PRA,technology,London,banks PRA technology London
+banks,CRR,technology,London,banks CRR technology London
+banks,Trade analytics,technology,London,banks Trade analytics technology London
+banks,post‑trade analytics,technology,London,banks post‑trade analytics technology London
+banks,pre‑trade analytics,technology,London,banks pre‑trade analytics technology London
+banks,execution algos,technology,London,banks execution algos technology London
+banks,TCA,technology,London,banks TCA technology London
+banks,OMS,technology,London,banks OMS technology London
+banks,market impact,technology,London,banks market impact technology London
+banks,order flow,technology,London,banks order flow technology London
+banks,Sensitivities,technology,London,banks Sensitivities technology London
+banks,P&L vectors,technology,London,banks P&L vectors technology London
+banks,risk factors,technology,London,banks risk factors technology London
+banks,factor model,technology,London,banks factor model technology London
+banks,Greeks,technology,London,banks Greeks technology London
+banks,calculators,technology,London,banks calculators technology London
+banks,UDF,technology,London,banks UDF technology London
+banks,neural‑network proxy,technology,London,banks neural‑network proxy technology London
+banks,model validation,technology,London,banks model validation technology London
+banks,intraday risk,technology,London,banks intraday risk technology London
+banks,real‑time risk,technology,London,banks real‑time risk technology London
+banks,intraday datasets,technology,London,banks intraday datasets technology London
+banks,real‑time stress testing,technology,London,banks real‑time stress testing technology London
+banks,PnL analytics,technology,London,banks PnL analytics technology London
+banks,PnL analytics platform,technology,London,banks PnL analytics platform technology London
+banks,scenario analysis,technology,London,banks scenario analysis technology London
+banks,Multi‑layer risk aggregation,technology,London,banks Multi‑layer risk aggregation technology London
+banks,Liquidity,technology,London,banks Liquidity technology London
+banks,LCR,technology,London,banks LCR technology London
+banks,NSFR,technology,London,banks NSFR technology London
+banks,ILM,technology,London,banks ILM technology London
+banks,EVE,technology,London,banks EVE technology London
+banks,NII,technology,London,banks NII technology London
+banks,cashflow simulation,technology,London,banks cashflow simulation technology London
+banks,liquidity gap,technology,London,banks liquidity gap technology London
+banks,ALM,technology,London,banks ALM technology London
+banks,Data quality,technology,London,banks Data quality technology London
+banks,anomaly detection,technology,London,banks anomaly detection technology London
+banks,data certification,technology,London,banks data certification technology London
+banks,versioning,technology,London,banks versioning technology London
+banks,auditability,technology,London,banks auditability technology London
+banks,semantic layer,technology,London,banks semantic layer technology London
+banks,data model,technology,London,banks data model technology London
+banks,Intraday limit breach,technology,London,banks Intraday limit breach technology London
+banks,margin dispute,technology,London,banks margin dispute technology London
+banks,regulatory fine,technology,London,banks regulatory fine technology London
+banks,platform migration,technology,London,banks platform migration technology London
+banks,vendor replacement,technology,London,banks vendor replacement technology London
+banks,counterparty default,technology,London,banks counterparty default technology London
+banks,Equities,ai technology,London,banks Equities ai technology London
+banks,FX,ai technology,London,banks FX ai technology London
+banks,Rates,ai technology,London,banks Rates ai technology London
+banks,Credit,ai technology,London,banks Credit ai technology London
+banks,Commodities,ai technology,London,banks Commodities ai technology London
+banks,derivatives,ai technology,London,banks derivatives ai technology London
+banks,options,ai technology,London,banks options ai technology London
+banks,swaps,ai technology,London,banks swaps ai technology London
+banks,OTC derivatives,ai technology,London,banks OTC derivatives ai technology London
+banks,repos,ai technology,London,banks repos ai technology London
+banks,Chief Investment Officer,appointment,London,banks Chief Investment Officer appointment London
+banks,CIO,appointment,London,banks CIO appointment London
+banks,Chief Technology Officer,appointment,London,banks Chief Technology Officer appointment London
+banks,CTO,appointment,London,banks CTO appointment London
+banks,Chief Risk Officer,appointment,London,banks Chief Risk Officer appointment London
+banks,CRO,appointment,London,banks CRO appointment London
+banks,Head of Treasury,appointment,London,banks Head of Treasury appointment London
+banks,Treasury Head,appointment,London,banks Treasury Head appointment London
+banks,Head of Finance,appointment,London,banks Head of Finance appointment London
+banks,Head of Systematic Investment,appointment,London,banks Head of Systematic Investment appointment London
+banks,Head of Systematic Strategies,appointment,London,banks Head of Systematic Strategies appointment London
+banks,Head of Multi‑Asset,appointment,London,banks Head of Multi‑Asset appointment London
+banks,Head of Multi Asset Solutions,appointment,London,banks Head of Multi Asset Solutions appointment London
+banks,Head of Liquid Alternatives,appointment,London,banks Head of Liquid Alternatives appointment London
+banks,Head of Liquid Alts,appointment,London,banks Head of Liquid Alts appointment London
+banks,Head of Thematic ETF,appointment,London,banks Head of Thematic ETF appointment London
+banks,Head of Thematic ETFs,appointment,London,banks Head of Thematic ETFs appointment London
+banks,Head of Quantitative Investment,appointment,London,banks Head of Quantitative Investment appointment London
+banks,Head of Quant,appointment,London,banks Head of Quant appointment London
+banks,Global Head of Risk,appointment,London,banks Global Head of Risk appointment London
+banks,Regional Head of Treasury,appointment,London,banks Regional Head of Treasury appointment London
+banks,Portfolio Manager,appointment,London,banks Portfolio Manager appointment London
+banks,Head of Execution,appointment,London,banks Head of Execution appointment London
+banks,Head of Trading,appointment,London,banks Head of Trading appointment London
+banks,Head of Data Science,appointment,London,banks Head of Data Science appointment London
+banks,Head of AI,appointment,London,banks Head of AI appointment London
+banks,Chief Data Officer,appointment,London,banks Chief Data Officer appointment London
+banks,Head of ML,appointment,London,banks Head of ML appointment London
+banks,Head of QIS,appointment,London,banks Head of QIS appointment London
+banks,Agentic AI,technology,London,banks Agentic AI technology London
+banks,AI‑powered,technology,London,banks AI‑powered technology London
+banks,AI‑powered analytics,technology,London,banks AI‑powered analytics technology London
+banks,AI‑powered data quality,technology,London,banks AI‑powered data quality technology London
+banks,Generative AI,technology,London,banks Generative AI technology London
+banks,GenAI,technology,London,banks GenAI technology London
+banks,LLM,technology,London,banks LLM technology London
+banks,large language model,technology,London,banks large language model technology London
+banks,conversational analytics,technology,London,banks conversational analytics technology London
+banks,chatbot analytics,technology,London,banks chatbot analytics technology London
+banks,AI assistant,technology,London,banks AI assistant technology London
+banks,neural network proxy,technology,London,banks neural network proxy technology London
+banks,ML‑calibrated similarities,technology,London,banks ML‑calibrated similarities technology London
+banks,anomaly detection,technology,London,banks anomaly detection technology London
+banks,model governance,technology,London,banks model governance technology London
+banks,model validation,technology,London,banks model validation technology London
+banks,Agentic LLMs,technology,London,banks Agentic LLMs technology London
+banks,AI solutions,technology,London,banks AI solutions technology London
+banks,AI technology,technology,London,banks AI technology technology London
+banks,AI capabilities,technology,London,banks AI capabilities technology London
+banks,AI/ML,technology,London,banks AI/ML technology London
+banks,AI‑driven,technology,London,banks AI‑driven technology London
+banks,Predictive analytics,technology,London,banks Predictive analytics technology London
+banks,data science,technology,London,banks data science technology London
+banks,data analytics,technology,London,banks data analytics technology London
+banks,cognitive computing,technology,London,banks cognitive computing technology London
+banks,Digital transformation,technology,London,banks Digital transformation technology London
+banks,digital innovation,technology,London,banks digital innovation technology London
+banks,digitalization,technology,London,banks digitalization technology London
+banks,data transformation,technology,London,banks data transformation technology London

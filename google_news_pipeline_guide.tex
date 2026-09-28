@@ -1,0 +1,283 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+% Define professional color palette
+\definecolor{primary}{RGB}{31, 78, 121}      % Slate blue
+\definecolor{secondary}{RGB}{92, 107, 115}   % Muted gray
+\definecolor{background}{RGB}{245, 247, 248}  % Off-white code background
+\definecolor{commentgreen}{RGB}{34, 139, 34}  % Forest green for comments
+\definecolor{keywordblue}{RGB}{0, 102, 204}   % Bright blue for keywords
+\definecolor{stringred}{RGB}{163, 21, 21}     % Deep red for strings
+
+% Hyperref setup for clickable table of contents and links
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,      
+    urlcolor=primary,
+    pdftitle={Google News Scraping \& Automation Pipeline},
+    pdfauthor={praXvalue for Opensee},
+}
+
+% General Listings configuration
+\lstset{
+    backgroundcolor=\color{background},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numberstyle=\tiny\color{secondary},
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    frame=single,
+    rulecolor=\color{secondary!30},
+    commentstyle=\color{commentgreen},
+    keywordstyle=\color{keywordblue},
+    stringstyle=\color{stringred},
+}
+
+% Custom style for bash commands/code
+\lstdefinestyle{bash}{
+    language=bash,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{primary}\bfseries,
+    commentstyle=\color{secondary}\itshape,
+    stringstyle=\color{stringred},
+    backgroundcolor=\color{background},
+    frame=single,
+    rulecolor=\color{secondary!30},
+    numbers=none
+}
+
+% Header and Footer configuration using fancyhdr
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textcolor{secondary}{\small Google News Scraping \& Automation}}
+\lhead{\textcolor{secondary}{\small Deployment \& Setup Guide}}
+\rfoot{\textcolor{secondary}{\thepage}}
+\lfoot{\textcolor{secondary}{\small praXvalue for Opensee}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Document Info
+\title{
+    \vspace{2in}
+    \HRule \\[0.4cm]
+    \Huge \textbf{Google News Scraping \& Automation Pipeline} \\[0.2cm]
+    \large \textbf{Comprehensive Local, Cloud Shell, and Cloud Function Deployment Guide}
+    \HRule \\[1.5cm]
+}
+\author{\textbf{praXvalue for Opensee}}
+\date{July 2026}
+
+% Custom command for horizontal rules in the title
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{document}
+
+% Front Page
+\clearpage
+\maketitle
+\thispagestyle{empty}
+\clearpage
+
+% Table of Contents
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+
+\setcounter{page}{1}
+
+\section{Introduction}
+This document serves as a comprehensive guide for the Google News scraping, article extraction, and automation pipeline designed for \textbf{Opensee}. 
+
+The pipeline is built as a headless browser-based automation system running in an interactive Linux shell environment (such as Google Cloud Shell). It automates daily scraping routines using connection-triggered execution scripts, ensuring reliable data extraction without relying on a persistent cron daemon.
+
+\newpage
+
+\section{Local \& Cloud Shell Article Extraction Pipeline}
+\label{sec:local_pipeline}
+
+This section describes the robust, automated pipeline designed for Google Cloud Shell (or any Linux environment) that scrapes Google News articles based on search seeds, resolves their original URLs, and extracts full article text using headless browser automation.
+
+\subsection{Project Overview}
+The local pipeline executes in two sequential stages:
+\begin{enumerate}
+    \item \textbf{Scraping Stage:} Searches Google News for articles matching a set of search keywords (seeds) from a selected seed file, filtering for articles published in the last 60 days.
+    \item \textbf{Resolution \& Extraction Stage:} Uses the Google Custom Search API to resolve original publisher URLs and Playwright (headless Chromium) to render and extract clean article body text (removing headers, footers, scripts, and navigation elements).
+\end{enumerate}
+
+The system alternates through \textbf{six different seed files} day-by-day in a stateless, round-robin cycle.
+
+\subsection{Directory Structure}
+The project files are structured as follows under the user's home directory. Note that box-drawing characters are represented in standard ASCII format for compatibility across LaTeX compilers:
+
+\begin{lstlisting}[numbers=none, caption={Directory Structure of the Google News Pipeline}]
+/home/elena_bessis/google_news/
+|-- clean_seeds/                       # Directory containing seed CSV files
+|   |-- seeds_buyside_eu_uae.csv
+|   |-- seeds_buyside_london.csv
+|   |-- seeds_buyside_us.csv
+|   |-- seeds_sellside_eu.csv
+|   |-- seeds_sellside_london.csv
+|   `-- seeds_sellside_us.csv
+|-- to_execute_googlenews_opensee_1_0.py # Stage 1: Google News scraper script
+|-- to_execute_resolveggopensee.py      # Stage 2: URL resolver & text extractor script
+|-- run_pipeline.sh                     # Master pipeline automation script (shell)
+|-- pipeline.cron                       # Backup crontab configuration file
+|-- .last_run_date                      # State file tracking the last run date (YYYY-MM-DD)
+|-- pipeline_run.log                    # Master execution log file (output redirected here)
+`-- README.md                           # Markdown reference documentation
+\end{lstlisting}
+
+\subsection{Environment Setup}
+The pipeline requires \textbf{Python 3.8+} and several external dependencies.
+
+\subsubsection{Install Python Dependencies}
+Run the following command in your terminal to install all required libraries:
+\begin{lstlisting}[style=bash]
+pip3 install gnews pandas playwright beautifulsoup4 requests
+\end{lstlisting}
+
+\subsubsection{Install Playwright Browser Binaries}
+Playwright requires browser binaries to run headless browser instances. Install the Chromium binaries by running:
+\begin{lstlisting}[style=bash]
+playwright install chromium
+\end{lstlisting}
+\textit{Note: If running on a bare Linux server instead of Cloud Shell, you may also need to run \texttt{playwright install-deps} to install system-level library dependencies.}
+
+\subsection{Installation \& Permissions}
+To allow the master shell script to run, grant it execution permissions:
+\begin{lstlisting}[style=bash]
+chmod +x /home/elena_bessis/google_news/run_pipeline.sh
+\end{lstlisting}
+
+\subsection{Connection-Triggered Automation}
+Because Google Cloud Shell VMs shut down automatically after periods of inactivity, a standard crontab is unreliable. Instead, this pipeline uses a \textbf{daily login trigger} appended to your shell configuration.
+
+\subsubsection{How It Works}
+Every time you connect to your Cloud Shell terminal, the shell reads your \verb|~/.bashrc| file. The trigger block performs the following steps:
+\begin{enumerate}
+    \item Checks if \verb|run_pipeline.sh| exists.
+    \item Compares today's date with the date in \verb|.last_run_date|.
+    \item Checks if a pipeline is \textbf{already running} in the background using \verb|pgrep|.
+    \item If a run is needed and not already active:
+    \begin{itemize}
+        \item It prints a notification banner.
+        \item It spawns \verb|run_pipeline.sh| in the background (\verb|&|).
+    \end{itemize}
+    \item \textbf{Note:} Unlike previous versions, the trigger does \textbf{not} update the \verb|.last_run_date| immediately. Completion is only marked by the script itself upon successful extraction or if it verifies that today's output already exists.
+\end{enumerate}
+
+\subsection{Manual Execution \& Monitoring}
+You can trigger the entire pipeline manually at any time. It includes a \textbf{locking mechanism} (\verb|flock|) that prevents multiple instances from running simultaneously.
+\begin{lstlisting}[style=bash]
+/home/elena_bessis/google_news/run_pipeline.sh
+\end{lstlisting}
+
+\subsection{Data Pipeline Workflow}
+Below is the step-by-step description of the data flow:
+\begin{enumerate}
+    \item \textbf{Pre-run Checks \& Resumption:}
+    \begin{itemize}
+        \item \textbf{Locking:} The script checks \verb|/tmp/google_news_pipeline.lock|. If locked, it exits to prevent concurrent runs.
+        \item \textbf{Interruption Detection:} It checks for the latest raw \verb|news_*.csv| file. If it exists without a corresponding \verb|_fulltext.csv|, the script enters \textbf{Resumption Mode}.
+    \end{itemize}
+    \item \textbf{Seed Selection:} 
+    \begin{itemize}
+        \item If resuming, it uses the seed associated with the interrupted raw file.
+        \item If starting fresh, it identifies the last completed seed and selects the next one in the rotation (round-robin through the 6 available seeds).
+    \end{itemize}
+    \item \textbf{Skip Check:} If not resuming, it checks if today's output already exists for the selected seed. If found, it skips the run.
+    \item \textbf{Scraping Stage (\texttt{to\_execute\_googlenews\_opensee\_1\_0.py}):}
+    \begin{itemize}
+        \item \textit{Skipped if in Resumption Mode.}
+        \item Queries Google News and saves raw articles as \verb|[seed_base]_[yy-mm-dd-HH].csv|.
+    \end{itemize}
+    \item \textbf{Extraction Stage (\texttt{to\_execute\_resolveggopensee.py}):}
+    \begin{itemize}
+        \item Resolves URLs and extracts clean text via Playwright.
+        \item Saves final results to \verb|[seed_base]_[yy-mm-dd-HH]_fulltext.csv|.
+    \end{itemize}
+    \item \textbf{Finalization:} Upon successful completion, the script updates \verb|.last_run_date| and logs the completion timestamp.
+\end{enumerate}
+\section{Migration and Running from Another Cloud Shell Account}
+\label{sec:migration}
+
+To migrate the pipeline and run it from a different Google Cloud Shell account, several configuration and path updates are required. Because the environment paths are tied to the user's home directory structure, running the pipeline under a new username requires transferring the files and adjusting path references.
+
+\subsection{Step 1: Transfer Project Files}
+Ensure all pipeline files and directories are copied to the new Cloud Shell account. The files should be placed under the new user's home directory, preferably in the same subfolder structure:
+\begin{lstlisting}[style=bash]
+# Example: Creating the directory and copying files
+mkdir -p ~/google_news
+# Transfer clean_seeds/, Python scripts, and run_pipeline.sh into ~/google_news/
+\end{lstlisting}
+
+\subsection{Step 2: Identify and Modify Path References}
+All absolute path references to the previous home directory (\texttt{/home/francois\_oustry/}) must be updated to the new user's home directory (\texttt{/home/<new\_username>/}).
+
+\subsubsection{1. Shell Startup Configuration (\texttt{.bashrc})}
+The login-trigger block in \verb|~/.bashrc| must be updated. Replace the old paths with the new ones. For robustness and portability across different accounts, it is recommended to use the \verb|~/| or \verb|$HOME| environment variables:
+\begin{lstlisting}[style=bash]
+# In ~/.bashrc, update the path to the runner and state files:
+if [ -f "$HOME/google_news/run_pipeline.sh" ]; then
+    # ... trigger check logic ...
+    # Reference $HOME/google_news/.last_run_date instead of a hardcoded home path
+fi
+\end{lstlisting}
+
+\subsubsection{2. Master Shell Script (\texttt{run\_pipeline.sh})}
+Open \verb|run_pipeline.sh| and inspect the file for any hardcoded references to \texttt{/home/francois\_oustry/}. Update these references to use \verb|$HOME| or the absolute path of the new home directory:
+\begin{itemize}
+    \item Update the working directory path.
+    \item Update the path to the Python executable or virtual environment (if applicable).
+    \item Update paths to the seed files directory (\verb|clean_seeds/|).
+\end{itemize}
+
+\subsubsection{3. Python Scripts}
+Open the Python script files (\verb|to_execute_googlenews_opensee_1_0.py| and \verb|to_execute_resolveggopensee.py|) and verify if there are any hardcoded home directory paths. If absolute paths are used for reading seed files or saving output CSVs, modify them to either:
+\begin{itemize}
+    \item Use relative paths (e.g., \verb|'clean_seeds/'|), which resolve relative to the script's execution directory.
+    \item Dynamically resolve the home directory in Python using:
+    \begin{lstlisting}[language=Python, numbers=none]
+import os
+home_dir = os.path.expanduser('~')
+seed_path = os.path.join(home_dir, 'google_news', 'clean_seeds')
+    \end{lstlisting}
+\end{itemize}
+
+\subsection{Step 3: Restore Environment and Permissions}
+On the new Cloud Shell account, the dependencies and execution permissions must be re-established:
+\begin{enumerate}
+    \item \textbf{Install Python Libraries:}
+    \begin{lstlisting}[style=bash]
+pip3 install gnews pandas playwright beautifulsoup4 requests
+    \end{lstlisting}
+    \item \textbf{Install Playwright Browser Binaries:}
+    \begin{lstlisting}[style=bash]
+playwright install chromium
+    \end{lstlisting}
+    \item \textbf{Make Master Script Executable:}
+    \begin{lstlisting}[style=bash]
+chmod +x ~/google_news/run_pipeline.sh
+    \end{lstlisting}
+\end{enumerate}
+
+\subsection{Step 4: Enable Connection-Triggered Automation}
+Once the paths are updated and permissions are set, append the daily login trigger block to the new account's \verb|~/.bashrc| file to reactivate daily background automation upon login.
+
+\end{document}

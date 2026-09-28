@@ -1,0 +1,157 @@
+Institution,key word,nature,Location,Seeds
+banks,GSIBs,appointment,US,banks GSIBs appointment US
+banks,investment bank,appointment,US,banks investment bank appointment US
+banks,broker‑dealer,appointment,US,banks broker‑dealer appointment US
+banks,prime broker,appointment,US,banks prime broker appointment US
+banks,trading desk,appointment,US,banks trading desk appointment US
+banks,front office,appointment,US,banks front office appointment US
+banks,middle office,appointment,US,banks middle office appointment US
+banks,risk desk,appointment,US,banks risk desk appointment US
+banks,treasury desk,appointment,US,banks treasury desk appointment US
+banks,FRTB,technology,US,banks FRTB technology US
+banks,FRTB SA,technology,US,banks FRTB SA technology US
+banks,FRTB IMA,technology,US,banks FRTB IMA technology US
+banks,VaR,technology,US,banks VaR technology US
+banks,Value-at-risk,technology,US,banks Value-at-risk technology US
+banks,intraday VaR,technology,US,banks intraday VaR technology US
+banks,Expected Shortfall,technology,US,banks Expected Shortfall technology US
+banks,ES,technology,US,banks ES technology US
+banks,stress testing,technology,US,banks stress testing technology US
+banks,backtesting,technology,US,banks backtesting technology US
+banks,SA‑CCR,technology,US,banks SA‑CCR technology US
+banks,SIMM,technology,US,banks SIMM technology US
+banks,ISDA SIMM,technology,US,banks ISDA SIMM technology US
+banks,IM,technology,US,banks IM technology US
+banks,VM,technology,US,banks VM technology US
+banks,margin call,technology,US,banks margin call technology US
+banks,collateral management,technology,US,banks collateral management technology US
+banks,CCP,technology,US,banks CCP technology US
+banks,netting set,technology,US,banks netting set technology US
+banks,CSA,technology,US,banks CSA technology US
+banks,XVA,technology,US,banks XVA technology US
+banks,CVA,technology,US,banks CVA technology US
+banks,PFE,technology,US,banks PFE technology US
+banks,EAD,technology,US,banks EAD technology US
+banks,RWA,technology,US,banks RWA technology US
+banks,capital optimization,technology,US,banks capital optimization technology US
+banks,regulatory capital,technology,US,banks regulatory capital technology US
+banks,BCBS 239,technology,US,banks BCBS 239 technology US
+banks,PRA,technology,US,banks PRA technology US
+banks,CRR,technology,US,banks CRR technology US
+banks,Trade analytics,technology,US,banks Trade analytics technology US
+banks,post‑trade analytics,technology,US,banks post‑trade analytics technology US
+banks,pre‑trade analytics,technology,US,banks pre‑trade analytics technology US
+banks,execution algos,technology,US,banks execution algos technology US
+banks,TCA,technology,US,banks TCA technology US
+banks,OMS,technology,US,banks OMS technology US
+banks,market impact,technology,US,banks market impact technology US
+banks,order flow,technology,US,banks order flow technology US
+banks,Sensitivities,technology,US,banks Sensitivities technology US
+banks,P&L vectors,technology,US,banks P&L vectors technology US
+banks,risk factors,technology,US,banks risk factors technology US
+banks,factor model,technology,US,banks factor model technology US
+banks,Greeks,technology,US,banks Greeks technology US
+banks,calculators,technology,US,banks calculators technology US
+banks,UDF,technology,US,banks UDF technology US
+banks,neural‑network proxy,technology,US,banks neural‑network proxy technology US
+banks,model validation,technology,US,banks model validation technology US
+banks,intraday risk,technology,US,banks intraday risk technology US
+banks,real‑time risk,technology,US,banks real‑time risk technology US
+banks,intraday datasets,technology,US,banks intraday datasets technology US
+banks,real‑time stress testing,technology,US,banks real‑time stress testing technology US
+banks,PnL analytics,technology,US,banks PnL analytics technology US
+banks,PnL analytics platform,technology,US,banks PnL analytics platform technology US
+banks,scenario analysis,technology,US,banks scenario analysis technology US
+banks,Multi‑layer risk aggregation,technology,US,banks Multi‑layer risk aggregation technology US
+banks,Liquidity,technology,US,banks Liquidity technology US
+banks,LCR,technology,US,banks LCR technology US
+banks,NSFR,technology,US,banks NSFR technology US
+banks,ILM,technology,US,banks ILM technology US
+banks,EVE,technology,US,banks EVE technology US
+banks,NII,technology,US,banks NII technology US
+banks,cashflow simulation,technology,US,banks cashflow simulation technology US
+banks,liquidity gap,technology,US,banks liquidity gap technology US
+banks,ALM,technology,US,banks ALM technology US
+banks,Data quality,technology,US,banks Data quality technology US
+banks,anomaly detection,technology,US,banks anomaly detection technology US
+banks,data certification,technology,US,banks data certification technology US
+banks,versioning,technology,US,banks versioning technology US
+banks,auditability,technology,US,banks auditability technology US
+banks,semantic layer,technology,US,banks semantic layer technology US
+banks,data model,technology,US,banks data model technology US
+banks,Intraday limit breach,technology,US,banks Intraday limit breach technology US
+banks,margin dispute,technology,US,banks margin dispute technology US
+banks,regulatory fine,technology,US,banks regulatory fine technology US
+banks,platform migration,technology,US,banks platform migration technology US
+banks,vendor replacement,technology,US,banks vendor replacement technology US
+banks,counterparty default,technology,US,banks counterparty default technology US
+banks,Equities,ai technology,US,banks Equities ai technology US
+banks,FX,ai technology,US,banks FX ai technology US
+banks,Rates,ai technology,US,banks Rates ai technology US
+banks,Credit,ai technology,US,banks Credit ai technology US
+banks,Commodities,ai technology,US,banks Commodities ai technology US
+banks,derivatives,ai technology,US,banks derivatives ai technology US
+banks,options,ai technology,US,banks options ai technology US
+banks,swaps,ai technology,US,banks swaps ai technology US
+banks,OTC derivatives,ai technology,US,banks OTC derivatives ai technology US
+banks,repos,ai technology,US,banks repos ai technology US
+banks,Chief Investment Officer,appointment,US,banks Chief Investment Officer appointment US
+banks,CIO,appointment,US,banks CIO appointment US
+banks,Chief Technology Officer,appointment,US,banks Chief Technology Officer appointment US
+banks,CTO,appointment,US,banks CTO appointment US
+banks,Chief Risk Officer,appointment,US,banks Chief Risk Officer appointment US
+banks,CRO,appointment,US,banks CRO appointment US
+banks,risk manager,appointment,US,banks risk manager appointment US
+banks,Head of Treasury,appointment,US,banks Head of Treasury appointment US
+banks,Treasury Head,appointment,US,banks Treasury Head appointment US
+banks,Head of Finance,appointment,US,banks Head of Finance appointment US
+banks,Head of Systematic Investment,appointment,US,banks Head of Systematic Investment appointment US
+banks,Head of Systematic Strategies,appointment,US,banks Head of Systematic Strategies appointment US
+banks,Head of Multi‑Asset,appointment,US,banks Head of Multi‑Asset appointment US
+banks,Head of Multi Asset Solutions,appointment,US,banks Head of Multi Asset Solutions appointment US
+banks,Head of Liquid Alternatives,appointment,US,banks Head of Liquid Alternatives appointment US
+banks,Head of Liquid Alts,appointment,US,banks Head of Liquid Alts appointment US
+banks,Head of Thematic ETF,appointment,US,banks Head of Thematic ETF appointment US
+banks,Head of Thematic ETFs,appointment,US,banks Head of Thematic ETFs appointment US
+banks,Head of Quantitative Investment,appointment,US,banks Head of Quantitative Investment appointment US
+banks,Head of Quant,appointment,US,banks Head of Quant appointment US
+banks,Global Head of Risk,appointment,US,banks Global Head of Risk appointment US
+banks,Regional Head of Treasury,appointment,US,banks Regional Head of Treasury appointment US
+banks,Portfolio Manager,appointment,US,banks Portfolio Manager appointment US
+banks,Head of Execution,appointment,US,banks Head of Execution appointment US
+banks,Head of Trading,appointment,US,banks Head of Trading appointment US
+banks,Head of Data Science,appointment,US,banks Head of Data Science appointment US
+banks,Head of AI,appointment,US,banks Head of AI appointment US
+banks,Chief Data Officer,appointment,US,banks Chief Data Officer appointment US
+banks,Head of ML,appointment,US,banks Head of ML appointment US
+banks,Head of QIS,appointment,US,banks Head of QIS appointment US
+banks,Agentic AI,technology,US,banks Agentic AI technology US
+banks,AI‑powered,technology,US,banks AI‑powered technology US
+banks,AI‑powered analytics,technology,US,banks AI‑powered analytics technology US
+banks,AI‑powered data quality,technology,US,banks AI‑powered data quality technology US
+banks,Generative AI,technology,US,banks Generative AI technology US
+banks,GenAI,technology,US,banks GenAI technology US
+banks,LLM,technology,US,banks LLM technology US
+banks,large language model,technology,US,banks large language model technology US
+banks,conversational analytics,technology,US,banks conversational analytics technology US
+banks,chatbot analytics,technology,US,banks chatbot analytics technology US
+banks,AI assistant,technology,US,banks AI assistant technology US
+banks,neural network proxy,technology,US,banks neural network proxy technology US
+banks,ML‑calibrated similarities,technology,US,banks ML‑calibrated similarities technology US
+banks,anomaly detection,technology,US,banks anomaly detection technology US
+banks,model governance,technology,US,banks model governance technology US
+banks,model validation,technology,US,banks model validation technology US
+banks,Agentic LLMs,technology,US,banks Agentic LLMs technology US
+banks,AI solutions,technology,US,banks AI solutions technology US
+banks,AI technology,technology,US,banks AI technology technology US
+banks,AI capabilities,technology,US,banks AI capabilities technology US
+banks,AI/ML,technology,US,banks AI/ML technology US
+banks,AI‑driven,technology,US,banks AI‑driven technology US
+banks,Predictive analytics,technology,US,banks Predictive analytics technology US
+banks,data science,technology,US,banks data science technology US
+banks,data analytics,technology,US,banks data analytics technology US
+banks,cognitive computing,technology,US,banks cognitive computing technology US
+banks,Digital transformation,technology,US,banks Digital transformation technology US
+banks,digital innovation,technology,US,banks digital innovation technology US
+banks,digitalization,technology,US,banks digitalization technology US
+banks,data transformation,technology,US,banks data transformation technology US

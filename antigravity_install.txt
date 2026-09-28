@@ -1,0 +1,23 @@
+# Antigravity CLI Installation on Cloud Shell
+
+You can install Antigravity CLI on your Cloud Shell VM using the Linux installation script.
+
+## Installation Command
+Run the following command in your Cloud Shell terminal:
+
+```bash
+curl -fsSL https://antigravity.google/cli/install.sh | bash
+```
+
+## Next Steps
+1. **Launch Antigravity**: Once installed, navigate to your project directory and type:
+   ```bash
+   agy
+   ```
+2. **First-Time Setup**: The interactive TUI will launch and guide you through workspace trust verification and theme configuration.
+3. **Verify Installation**: You can check the version to ensure it's correctly installed:
+   ```bash
+   agy --version
+   ```
+
+Official Documentation: https://antigravity.google/docs/cli-getting-started

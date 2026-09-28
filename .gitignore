@@ -1,0 +1,59 @@
+# API Keys and Secrets (CRITICAL)
+*brave_api_key*
+*.key
+*.secret
+*.token
+.env
+.env.*
+
+# Exclude Women Appointments & Reports
+*women*
+*Women*
+
+# SQLite Databases & Backups
+*.db
+*.db.*
+*.sqlite
+*.sqlite3
+
+# Large Data Exports & Per-run Output Dumps in root
+news_*.csv
+news_*.txt
+news_*_fulltext*
+linkedin_*.csv
+*_[0-9][0-9]-[0-9][0-9]-[0-9][0-9]-[0-9][0-9]*.csv
+*_resolved.csv
+070526_*.csv
+*fulltext*
+*checkpoint*
+*.parquet
+
+# Preserve configuration seed files
+!clean_seeds/
+!clean_seeds/*.csv
+
+# Redundant Deployment Packages & Archives
+colleague_pipeline_pkg/
+pipeline_deployment_package/
+*.tar.gz
+*.zip
+*.tar
+
+# Logs and Runtime State
+*.log
+pipeline_run.log
+.last_run_date
+.last_risk_run_date
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
