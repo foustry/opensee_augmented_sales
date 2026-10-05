@@ -5,121 +5,197 @@
       "category_name": "People & Appointments",
       "taxonomy_id": "262371",
       "top_article": {
-        "title": "People: Barclays IB pivots to co-CEOs, SocGen in shake-up, and more",
-        "url": "https://www.risk.net/people/7964051/people-barclays-ib-pivots-to-co-ceos-socgen-in-shake-up-and-more",
-        "published_date": "August 31, 2026",
+        "title": "People: CRO switches at Wells and Barclays, further SG shake-ups, and more",
+        "url": "https://www.risk.net/people/7964215/people-cro-switches-at-wells-and-barclays-further-sg-shake-ups-and-more",
+        "published_date": "October 2, 2026",
         "authors": [
-          "Emma Siponmaa",
+          "Naomi Cardona Castellanos",
           "Jon Lloyd"
         ],
         "desk": "People",
         "organisations": [
-          "Bank of America",
-          "Bank of England (BoE)",
-          "Barclays",
-          "Citi",
-          "Futures Industry Association (FIA)",
-          "Societe Generale",
           "Wells Fargo",
-          "Kalshi",
-          "Cboe Global Markets",
-          "Natixis",
-          "Securities and Exchange Commission (SEC)",
-          "Nasdaq",
-          "Office of the Comptroller of the Currency (OCC)",
-          "European Energy Exchange (EEX)",
-          "European Commodity Clearing (ECC)"
+          "Barclays",
+          "Societe Generale",
+          "FNZ",
+          "Citi",
+          "Two Sigma",
+          "ICBC Standard Bank",
+          "ING",
+          "Eurex",
+          "Options Clearing Corporation (OCC)",
+          "ProShares",
+          "European Banking Authority (EBA)",
+          "Marex",
+          "Alternative Investment Management Association (AIMA)"
         ],
-        "summary": "Roundup of senior leadership changes across top investment banks, brokers, and market infrastructures. Features Barclays restructuring its Investment Bank under a co-CEO management model to accelerate corporate/market convergence, and Société Générale executing senior executive changes across its Global Banking and Investor Solutions (GBIS) unit. Also tracks appointments and departures at Citi, BofA, Wells Fargo, BoE, Kalshi, Natixis, and the SEC."
+        "summary": "Senior leadership changes across banking, market risk, asset management, and financial market infrastructure. Wells Fargo names Scott Powell new Chief Risk Officer succeeding Derek Flowers; Barclays replaces retiring Matthew Stevens with Phil Beale as CRO; Societe Generale announces a major global markets overhaul including Salim Nemouchi as UK markets head, and Natasha Dadlani and Stephane Dahome as Americas equities co-heads; Blythe Masters steps down as CEO of FNZ; Citi hires Andrei Kazantsev from Goldman Sachs as global head of FX exotics; Two Sigma hires Ian Jackson as CRO; and ProShares hires Alessio de Longis as CIO."
       },
       "appointments": [
         {
-          "person": "Mike Joo",
-          "position": "Co-CEO of Investment Bank (Head of Investment Banking)",
-          "company": "Barclays",
-          "previous_company": "Bank of America",
-          "date": "2026-08-31",
-          "title": "Appointment: Mike Joo named co-CEO of Barclays Investment Bank",
-          "summary": "Mike Joo joins Barclays from Bank of America to serve as co-CEO of the Investment Bank, taking leadership of the global corporate finance and investment banking franchise alongside co-CEO Adeel Khan.",
-          "location": "London / New York",
-          "sector": "Investment Banking"
+          "person": "Scott Powell",
+          "position": "Chief Risk Officer",
+          "company": "Wells Fargo",
+          "previous_company": "Wells Fargo (COO)",
+          "date": "2026-10-02",
+          "title": "Appointment: Scott Powell named Chief Risk Officer at Wells Fargo",
+          "summary": "Scott Powell, member of Wells Fargo operating committee and former COO since 2019, succeeds retiring Derek Flowers as Chief Risk Officer in mid-January 2027.",
+          "location": "New York / US",
+          "sector": "Commercial & Investment Banking"
         },
         {
-          "person": "Adeel Khan",
-          "position": "Co-CEO of Investment Bank (Head of Global Markets)",
+          "person": "Phil Beale",
+          "position": "Chief Risk Officer",
           "company": "Barclays",
-          "previous_company": "Barclays (promoted from Co-Head of IB / Head of Global Markets)",
-          "date": "2026-08-31",
-          "title": "Appointment: Adeel Khan named co-CEO of Barclays Investment Bank",
-          "summary": "Adeel Khan appointed co-CEO of Barclays Investment Bank in an expanded mandate leading global markets as Barclays transitions to a streamlined co-CEO dual leadership structure.",
-          "location": "London / Global",
+          "previous_company": "Aldermore Bank / Barclays",
+          "date": "2026-09-11",
+          "title": "Appointment: Phil Beale appointed Chief Risk Officer at Barclays",
+          "summary": "Phil Beale returns to Barclays as Chief Risk Officer, succeeding Matthew Stevens who retired after 34 years with the bank.",
+          "location": "London, UK",
+          "sector": "Investment & Corporate Banking"
+        },
+        {
+          "person": "Salim Nemouchi",
+          "position": "Head of Global Markets UK & Global Head of Prime Services",
+          "company": "Societe Generale",
+          "previous_company": "Societe Generale",
+          "date": "2026-10-02",
+          "title": "Appointment: Salim Nemouchi appointed Head of Global Markets UK at Societe Generale",
+          "summary": "Salim Nemouchi relocates to London as Head of Global Markets UK while retaining his global head of prime services mandate, succeeding Albert Loo.",
+          "location": "London, UK",
+          "sector": "Global Markets / Prime Services"
+        },
+        {
+          "person": "Natasha Dadlani",
+          "position": "Co-Head of Equities and Equity Derivatives Americas",
+          "company": "Societe Generale",
+          "previous_company": "Societe Generale",
+          "date": "2026-10-02",
+          "title": "Appointment: Natasha Dadlani named Co-Head of Equities & Equity Derivatives Americas at Societe Generale",
+          "summary": "Natasha Dadlani promoted to Co-Head of Equities and Equity Derivatives Americas, based in New York alongside Stephane Dahome.",
+          "location": "New York, US",
+          "sector": "Equities & Equity Derivatives"
+        },
+        {
+          "person": "Stephane Dahome",
+          "position": "Co-Head of Equities and Equity Derivatives Americas",
+          "company": "Societe Generale",
+          "previous_company": "Societe Generale",
+          "date": "2026-10-02",
+          "title": "Appointment: Stephane Dahome named Co-Head of Equities & Equity Derivatives Americas at Societe Generale",
+          "summary": "Stephane Dahome appointed Co-Head of Equities and Equity Derivatives Americas, based in New York alongside Natasha Dadlani.",
+          "location": "New York, US",
+          "sector": "Equities & Equity Derivatives"
+        },
+        {
+          "person": "Tomoyuki Sasi",
+          "position": "Head of Global Markets Japan",
+          "company": "Societe Generale",
+          "previous_company": "Credit Suisse / Deutsche / Lehman",
+          "date": "2026-09-01",
+          "title": "Appointment: Tomoyuki Sasi appointed Head of Global Markets Japan at Societe Generale",
+          "summary": "Tomoyuki Sasi joins SG as Head of Global Markets Japan, succeeding Marc Saffon who became Group Country Head for Japan.",
+          "location": "Tokyo, Japan",
           "sector": "Global Markets"
         },
         {
-          "person": "Joseph Chia",
-          "position": "Head of Supply Chain Management, Asia Pacific",
+          "person": "Benoit Grisoni",
+          "position": "Deputy Head of French Retail Banking, Private Banking & Insurance",
           "company": "Societe Generale",
-          "previous_company": "Societe Generale",
-          "date": "2026-08-01",
-          "title": "Appointment: Joseph Chia appointed Head of Supply Chain Management APAC at Societe Generale",
-          "summary": "Societe Generale appoints Joseph Chia as Head of Supply Chain Management for Asia Pacific within its Global Banking and Investor Solutions (GBIS) division.",
-          "location": "Asia Pacific",
-          "sector": "Transaction Banking / Supply Chain"
+          "previous_company": "BoursoBank / Societe Generale",
+          "date": "2026-10-01",
+          "title": "Appointment: Benoit Grisoni named Deputy Head of Retail, Private Banking & Insurance at Societe Generale",
+          "summary": "Benoit Grisoni appointed Deputy Head of French retail, private banking and insurance while continuing as CEO of BoursoBank.",
+          "location": "Paris, France",
+          "sector": "Private Banking & Wealth"
         },
         {
-          "person": "Jun Ito",
-          "position": "Head of Debt Capital Markets, Japan",
-          "company": "Societe Generale",
-          "previous_company": "Societe Generale",
-          "date": "2026-08-31",
-          "title": "Appointment: Jun Ito appointed Head of Debt Capital Markets Japan at Societe Generale",
-          "summary": "Societe Generale appoints Jun Ito as Head of Debt Capital Markets (DCM) for Japan within the Global Banking and Investor Solutions (GBIS) platform.",
-          "location": "Tokyo, Japan",
-          "sector": "Debt Capital Markets"
+          "person": "Blythe Masters",
+          "position": "Group CEO (Departure)",
+          "company": "FNZ",
+          "previous_company": "JPMorgan / Motive Partners / Digital Asset",
+          "date": "2026-10-02",
+          "title": "Executive Move: Blythe Masters steps down as CEO of FNZ",
+          "summary": "Industry veteran Blythe Masters leaves role as group CEO of FNZ; Stephen Welch assumes executive group chair duties.",
+          "location": "Global / New Zealand",
+          "sector": "Wealthtech / Platform"
         },
         {
-          "person": "Nicholas Segal",
-          "position": "Chair, Enforcement Decision Making Committee (EDMC)",
-          "company": "Bank of England",
-          "previous_company": "Freshfields / Judicial Office",
-          "date": "2026-08-01",
-          "title": "Appointment: Nicholas Segal appointed Chair of Enforcement Decision Making Committee at Bank of England",
-          "summary": "The Bank of England announces the appointment of Nicholas Segal as Chair of its Enforcement Decision Making Committee (EDMC), overseeing contested regulatory enforcement cases.",
+          "person": "Andrei Kazantsev",
+          "position": "Global Head of FX Exotics Trading",
+          "company": "Citi",
+          "previous_company": "Goldman Sachs",
+          "date": "2026-09-15",
+          "title": "Appointment: Andrei Kazantsev hired as Global Head of FX Exotics Trading at Citi",
+          "summary": "Citi hires Goldman Sachs 15-year veteran Andrei Kazantsev as Global Head of FX Exotics Trading in London, reporting to Patrick Green.",
           "location": "London, UK",
-          "sector": "Central Banking & Regulation"
+          "sector": "FX & Derivatives Trading"
         },
         {
-          "person": "Peter King",
-          "position": "Deputy Chair, Enforcement Decision Making Committee (EDMC)",
-          "company": "Bank of England",
-          "previous_company": "Weil, Gotshal & Manges",
-          "date": "2026-08-01",
-          "title": "Appointment: Peter King appointed Deputy Chair of Enforcement Decision Making Committee at Bank of England",
-          "summary": "Peter King appointed Deputy Chair of the Enforcement Decision Making Committee (EDMC) at the Bank of England.",
-          "location": "London, UK",
-          "sector": "Central Banking & Regulation"
-        },
-        {
-          "person": "Sophie Courmont",
-          "position": "Head of Switzerland",
-          "company": "Natixis Investment Managers",
-          "previous_company": "Natixis IM",
-          "date": "2026-09-21",
-          "title": "Appointment: Sophie Courmont appointed Head of Switzerland at Natixis Investment Managers",
-          "summary": "Natixis Investment Managers names Sophie Courmont as Head of Switzerland to lead institutional and wholesale client development across Swiss wealth and institutional channels.",
-          "location": "Zurich / Geneva, Switzerland",
-          "sector": "Asset Management"
-        },
-        {
-          "person": "Boudewijn Duinstra",
+          "person": "Ian Jackson",
           "position": "Chief Risk Officer",
-          "company": "Cboe Global Markets",
-          "previous_company": "Cboe Europe",
-          "date": "2026-08-15",
-          "title": "Appointment: Boudewijn Duinstra appointed Chief Risk Officer at Cboe Global Markets",
-          "summary": "Boudewijn Duinstra oversees enterprise risk, clearing risk, and market infrastructure resilience as Chief Risk Officer at Cboe Global Markets.",
-          "location": "Chicago / Global",
-          "sector": "Exchange & Market Infrastructure"
+          "company": "Two Sigma",
+          "previous_company": "BNY",
+          "date": "2026-09-20",
+          "title": "Appointment: Ian Jackson appointed Chief Risk Officer at Two Sigma",
+          "summary": "Two Sigma appoints Ian Jackson as Chief Risk Officer, succeeding retiring CRO Satish Ramakrishna.",
+          "location": "New York, US",
+          "sector": "Quantitative Hedge Fund"
+        },
+        {
+          "person": "Alessio de Longis",
+          "position": "Chief Investment Officer and Head of Research (Active Investments)",
+          "company": "ProShares",
+          "previous_company": "Invesco",
+          "date": "2026-09-15",
+          "title": "Appointment: Alessio de Longis appointed Chief Investment Officer at ProShares",
+          "summary": "ProShares names Alessio de Longis as Chief Investment Officer and Head of Research to lead its new active investments platform and interval funds lineup.",
+          "location": "US",
+          "sector": "Asset Management / ETFs"
+        },
+        {
+          "person": "Eric Leupold",
+          "position": "Chief Executive Officer",
+          "company": "Eurex",
+          "previous_company": "Deutsche Boerse",
+          "date": "2026-10-02",
+          "title": "Appointment: Eric Leupold appointed CEO of Eurex",
+          "summary": "Eric Leupold, head of cash market at Deutsche Boerse, named CEO of Eurex, succeeding Robbert Booij who steps down at year-end.",
+          "location": "Frankfurt, Germany",
+          "sector": "Derivatives Exchange & Clearing"
+        },
+        {
+          "person": "Jake Middleton",
+          "position": "Chief Security Officer",
+          "company": "Options Clearing Corporation (OCC)",
+          "previous_company": "Federal Reserve Financial Services",
+          "date": "2026-09-08",
+          "title": "Appointment: Jake Middleton appointed Chief Security Officer at OCC",
+          "summary": "OCC appoints Jake Middleton as Chief Security Officer, joining from Federal Reserve Financial Services.",
+          "location": "Chicago, US",
+          "sector": "Clearing & Market Infrastructure"
+        },
+        {
+          "person": "Thomas Gst\u00e4dtner",
+          "position": "Executive Director",
+          "company": "European Banking Authority (EBA)",
+          "previous_company": "European Central Bank / Deutsche Bank",
+          "date": "2026-09-18",
+          "title": "Appointment: Thomas Gst\u00e4dtner confirmed as Executive Director of the EBA",
+          "summary": "Former ECB division head Thomas Gst\u00e4dtner confirmed as Executive Director of the European Banking Authority on a 5-year term, succeeding Francois-Louis Michaud.",
+          "location": "Paris, France",
+          "sector": "Banking Regulation & Supervision"
+        },
+        {
+          "person": "Robert Cheeseman",
+          "position": "Head of Prime Services Asia",
+          "company": "Marex",
+          "previous_company": "HKEX / Credit Suisse",
+          "date": "2026-09-15",
+          "title": "Appointment: Robert Cheeseman appointed Head of Prime Services Asia at Marex",
+          "summary": "Marex hires former HKEX and Credit Suisse MD Robert Cheeseman as Head of Prime Services Asia.",
+          "location": "Hong Kong / Asia",
+          "sector": "Prime Brokerage"
         }
       ]
     },
@@ -132,7 +208,7 @@
         "published_date": "September 2026",
         "authors": [
           "Ahmad Haidar",
-          "Christine Balagué"
+          "Christine Balagu\u00e9"
         ],
         "desk": "Operational Risk / Artificial Intelligence",
         "organisations": [
@@ -198,7 +274,7 @@
         "authors": [
           "Gustavo Coelho Haase",
           "Paulo Henrique Dourado",
-          "João Paulo Vieira Costa",
+          "Jo\u00e3o Paulo Vieira Costa",
           "Eduardo Medeiros Rubik"
         ],
         "desk": "Model Risk / Journal of Risk Model Validation",
@@ -207,7 +283,7 @@
           "US Federal Reserve (SR 11-7, SR 26-2)",
           "Office of the Comptroller of the Currency (OCC)"
         ],
-        "summary": "Demonstrates the severe pitfalls of 'mirror validation'—where validators merely re-execute model logic and check discrimination metrics (Gini, KS, AUC) without stress-testing calibration under regime changes. Across 500 simulations of retail credit PD models, mirror validation missed an average 32% underestimation of default probability, triggering an 8.5% loan-level capital shortfall. Presents an adversarial 5-test framework implementing supervisory 'effective challenge' requirements."
+        "summary": "Demonstrates the severe pitfalls of 'mirror validation'\u2014where validators merely re-execute model logic and check discrimination metrics (Gini, KS, AUC) without stress-testing calibration under regime changes. Across 500 simulations of retail credit PD models, mirror validation missed an average 32% underestimation of default probability, triggering an 8.5% loan-level capital shortfall. Presents an adversarial 5-test framework implementing supervisory 'effective challenge' requirements."
       }
     }
   }

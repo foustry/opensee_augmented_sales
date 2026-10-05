@@ -5,27 +5,34 @@ Overview of the latest top articles across key financial risk categories scraped
 ---
 
 ## 📌 Desk: People & Appointments
-### [People: Barclays IB pivots to co-CEOs, SocGen in shake-up, and more](https://www.risk.net/people/7964051/people-barclays-ib-pivots-to-co-ceos-socgen-in-shake-up-and-more)
-- **Published Date:** August 31, 2026
-- **Authors / Desk:** Emma Siponmaa, Jon Lloyd
-- **Article Link:** [`https://www.risk.net/people/7964051/people-barclays-ib-pivots-to-co-ceos-socgen-in-shake-up-and-more`](https://www.risk.net/people/7964051/people-barclays-ib-pivots-to-co-ceos-socgen-in-shake-up-and-more)
-- **Tagged Entities:** Bank of America, Bank of England (BoE), Barclays, Citi, Futures Industry Association (FIA), Societe Generale, Wells Fargo, Kalshi, Cboe Global Markets, Natixis, Securities and Exchange Commission (SEC), Nasdaq, Office of the Comptroller of the Currency (OCC), European Energy Exchange (EEX), European Commodity Clearing (ECC)
+### [People: CRO switches at Wells and Barclays, further SG shake-ups, and more](https://www.risk.net/people/7964215/people-cro-switches-at-wells-and-barclays-further-sg-shake-ups-and-more)
+- **Published Date:** October 2, 2026
+- **Authors / Desk:** Naomi Cardona Castellanos, Jon Lloyd
+- **Article Link:** [`https://www.risk.net/people/7964215/people-cro-switches-at-wells-and-barclays-further-sg-shake-ups-and-more`](https://www.risk.net/people/7964215/people-cro-switches-at-wells-and-barclays-further-sg-shake-ups-and-more)
+- **Tagged Entities:** Wells Fargo, Barclays, Societe Generale, FNZ, Citi, Two Sigma, ICBC Standard Bank, ING, Eurex, Options Clearing Corporation (OCC), ProShares, European Banking Authority (EBA), Marex, Alternative Investment Management Association (AIMA)
 
 **Executive Summary:**
-Roundup of senior leadership changes across top investment banks, brokers, and market infrastructures. Features Barclays restructuring its Investment Bank under a co-CEO management model to accelerate corporate/market convergence, and Société Générale executing senior executive changes across its Global Banking and Investor Solutions (GBIS) unit. Also tracks appointments and departures at Citi, BofA, Wells Fargo, BoE, Kalshi, Natixis, and the SEC.
+Senior leadership changes across banking, market risk, asset management, and financial market infrastructure. Wells Fargo names Scott Powell new Chief Risk Officer succeeding Derek Flowers; Barclays replaces retiring Matthew Stevens with Phil Beale as CRO; Societe Generale announces a major global markets overhaul including Salim Nemouchi as UK markets head, and Natasha Dadlani and Stephane Dahome as Americas equities co-heads; Blythe Masters steps down as CEO of FNZ; Citi hires Andrei Kazantsev from Goldman Sachs as global head of FX exotics; Two Sigma hires Ian Jackson as CRO; and ProShares hires Alessio de Longis as CIO.
 
 #### 👥 Tracked Executive Appointments & Leadership Moves:
 
 | Person | Position | Company | Previous Firm | Location |
 | :--- | :--- | :--- | :--- | :--- |
-| **Mike Joo** | Co-CEO of Investment Bank (Head of Investment Banking) | **Barclays** | Bank of America | London / New York |
-| **Adeel Khan** | Co-CEO of Investment Bank (Head of Global Markets) | **Barclays** | Barclays (promoted from Co-Head of IB / Head of Global Markets) | London / Global |
-| **Joseph Chia** | Head of Supply Chain Management, Asia Pacific | **Societe Generale** | Societe Generale | Asia Pacific |
-| **Jun Ito** | Head of Debt Capital Markets, Japan | **Societe Generale** | Societe Generale | Tokyo, Japan |
-| **Nicholas Segal** | Chair, Enforcement Decision Making Committee (EDMC) | **Bank of England** | Freshfields / Judicial Office | London, UK |
-| **Peter King** | Deputy Chair, Enforcement Decision Making Committee (EDMC) | **Bank of England** | Weil, Gotshal & Manges | London, UK |
-| **Sophie Courmont** | Head of Switzerland | **Natixis Investment Managers** | Natixis IM | Zurich / Geneva, Switzerland |
-| **Boudewijn Duinstra** | Chief Risk Officer | **Cboe Global Markets** | Cboe Europe | Chicago / Global |
+| **Scott Powell** | Chief Risk Officer | **Wells Fargo** | Wells Fargo (COO) | New York / US |
+| **Phil Beale** | Chief Risk Officer | **Barclays** | Aldermore Bank / Barclays | London, UK |
+| **Salim Nemouchi** | Head of Global Markets UK & Global Head of Prime Services | **Societe Generale** | Societe Generale | London, UK |
+| **Natasha Dadlani** | Co-Head of Equities and Equity Derivatives Americas | **Societe Generale** | Societe Generale | New York, US |
+| **Stephane Dahome** | Co-Head of Equities and Equity Derivatives Americas | **Societe Generale** | Societe Generale | New York, US |
+| **Tomoyuki Sasi** | Head of Global Markets Japan | **Societe Generale** | Credit Suisse / Deutsche / Lehman | Tokyo, Japan |
+| **Benoit Grisoni** | Deputy Head of French Retail Banking, Private Banking & Insurance | **Societe Generale** | BoursoBank / Societe Generale | Paris, France |
+| **Blythe Masters** | Group CEO (Departure) | **FNZ** | JPMorgan / Motive Partners / Digital Asset | Global / New Zealand |
+| **Andrei Kazantsev** | Global Head of FX Exotics Trading | **Citi** | Goldman Sachs | London, UK |
+| **Ian Jackson** | Chief Risk Officer | **Two Sigma** | BNY | New York, US |
+| **Alessio de Longis** | Chief Investment Officer and Head of Research (Active Investments) | **ProShares** | Invesco | US |
+| **Eric Leupold** | Chief Executive Officer | **Eurex** | Deutsche Boerse | Frankfurt, Germany |
+| **Jake Middleton** | Chief Security Officer | **Options Clearing Corporation (OCC)** | Federal Reserve Financial Services | Chicago, US |
+| **Thomas Gstädtner** | Executive Director | **European Banking Authority (EBA)** | European Central Bank / Deutsche Bank | Paris, France |
+| **Robert Cheeseman** | Head of Prime Services Asia | **Marex** | HKEX / Credit Suisse | Hong Kong / Asia |
 
 ---
 

@@ -1,16 +1,11 @@
 {
-  "month": "2026-09",
-  "total_calls": 9807,
+  "month": "2026-10",
+  "total_calls": 513,
   "monthly_total_cap": 10000,
   "monthly_per_file_cap": 1650,
   "per_run_file_cap": 330,
   "file_calls": {
-    "seeds_buyside_eu_uae.csv": 1650,
-    "seeds_buyside_london.csv": 1650,
-    "seeds_buyside_us.csv": 1650,
-    "seeds_sellside_eu.csv": 1650,
-    "seeds_sellside_london.csv": 1557,
-    "seeds_sellside_us.csv": 1650
+    "seeds_buyside_london.csv": 513
   },
-  "last_updated": "2026-09-21T10:06:44.306689"
+  "last_updated": "2026-10-05T11:06:09.979004"
 }
